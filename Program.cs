@@ -43,7 +43,7 @@ namespace JenniferGerred_CharacterCounter_Vector
         }
 
         // Returns a hash code based on the character value
-        public override int GetHashCode() => _ch.GetHashCode();
+        //public override int GetHashCode() => _ch.GetHashCode();
 
         // Returns a string in the format: Character(ASCIIValue)[tab]Frequency
         // For control characters, only shows: (ASCIIValue)[tab]Frequency
